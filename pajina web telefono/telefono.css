@@ -11,7 +11,7 @@ body{
 }
 
 body > .header-cv {
-width: 100%;
+width: 103%;
 height: 4em;
 background-color: rgb(30, 23, 47);
 color: rgb(231, 230, 233);
@@ -163,13 +163,13 @@ h2 {
 }
 
 .funcionalidades {
-        width: 100%;
+        width: 103%;
         height: 44em;
         background-color: azure;
   
 }
 .funcionalidades > img{
-    width: 25rem;
+    width: 35rem;
     height: 25rem;
     margin-top: 15%;
     margin-left: 14%;
@@ -215,10 +215,11 @@ h2 {
  }
 
 .plans {
-    margin-top: -1%;
+    padding: 12px;
+    margin-top: 0%;
     background-color: rgb(30, 23, 47);
-    height: 88%;
-    width: 100%;
+    height: 125%;
+    width: 101.5%;
 }
 
 h4 {
@@ -226,7 +227,7 @@ h4 {
     text-align: center;
     padding: 45px;
     font-size: 45px;
-    margin-left: 15%;
+    margin-left: -4%;
     color: white;
 }
 
@@ -234,10 +235,100 @@ h5 {
     justify-content:center;
     text-align: center;
     font-size: 25px;
-    margin-left: 15%;
+    margin-left: 5%;
     color: white;
 }
 
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    padding: 78px;
+    justify-content: space-around;
+
+}
+
+.card-container1, .card-container2, .card-container3{
+    display: flex;
+   flex-direction:column;
+   align-items: center;
+   justify-content: center;
+   width: 250px;
+   height: 369px;
+   margin: 0 auto;
+   background-color: rgb(255, 255, 255);
+   padding: 20px;
+   box-shadow: 0 0 0 3px #ffffff, 0 0 0 4px #f4f2f2, 0 0 0 6px #fcf9f9, 0 0 0 8px #f9f5f7, 0 0 0 10px #eeeeee;
+   border-top: 88px solid rgb(255, 255, 255);
+   border-radius: 10px;
+ margin-left: 45px;
+ margin-top: 24px;
+ padding: 15px;
+}
+
+.card-container1 > h1, .card-container2 > h1, .card-container3 > h1{
+color: rgb(246, 51, 150);
+margin-top: -14%;
+font-size: 25px;
+}
+
+
+
+  .card-container2>button,  .card-container3>button {
+    width: 140px;
+    height: 50px;
+    background:rgb(109, 76, 213);
+    border-radius: 10px;
+    color:  rgb(231, 230, 233);
+    margin-left: -35px;
+    margin-top: 5px  
+}
+.card-container1>button {
+    width: 140px;
+    height: 50px;
+    background:rgb(246, 51, 150);
+    border-radius: 10px;
+    color:  rgb(231, 230, 233);
+    margin-left: -35px;
+    margin-top: 5px  
+}
+
+
+.final {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+}   
+
+.footer {
+    display: flex;
+    flex-direction: row;
+ padding: 65px;
+    justify-content: space-around;
+}
+
+ ul {
+display: flex;
+flex-direction: row;
+ }
+.p {
+   margin-left: 4px;
+   margin-top: 78%;
+}
+p span{
+   color: rgb(241, 47, 146);
+}
+
+.social li {
+    display: inline-block;
+    padding: 0px;
+    min-width: 12px;
+    align-items: center;
+    margin-top: 9%; 
+    text-align: center;
+    font-size: 28px;
+    margin-left: 43%;
+}
 
 
 
