@@ -66,7 +66,7 @@ background-color: rgb(30, 23, 47);
 }
  
 .buttons{
-min-width: px;
+
 display: flex;
 justify-content: space-around;
 }
@@ -331,5 +331,308 @@ p span{
 }
 
 
+@media (max-width:480px) {
+ .header-cv {
+    padding-left: -45rem;
+    width: 45rem;
+    height: 78em;
+ }
+
+ body{
+    width: 45px ;
+    height: 12px;
+}
+
+ body > .header-cv {
+    width: 21.5em;
+    height: 15em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
 
 
+.logo1{
+    margin-left: 62.5%;
+    height: 68px;
+    width: 65px;
+    font-size: 48%;
+    
+}
+ .navbar > li > a{
+font-size: 9.5px;    
+margin-top: 45px;
+margin-left: -31px;
+float: center;
+width: 5em;
+
+
+}
+.buttondowloand1 {
+margin-left: -19em;
+margin-top: 84px;
+
+}
+.buttons{ 
+    margin-top: 117px;
+}
+
+.phone{
+    margin-top: 19px;
+    margin-left: -3%;
+    height: 24rem;
+}
+
+.products{
+    width: 21.5rem;
+    height:45rem
+
+
+} 
+
+.funcionalidades {
+    margin-top: 44px;
+    width: 21.4rem;
+    height: 44em; 
+}
+
+
+.funcionalidades > img{ 
+    height: 11rem;
+    width: 15rem;
+    padding: -74rem;   
+   }
+
+.funcionalidades > h1 {
+margin-top: -6.9em ;
+font-size: 41px;
+margin-left: -14px;
+padding: -72px;
+}
+
+
+
+ 
+
+.funcionalidades > h2 {
+    margin-top: 7rem;
+    margin-left: 5%;
+   
+}
+
+
+.funcionalidades > p {
+    margin-top: 7rem;
+    margin-left: 5%;
+   
+}
+
+.title2 {
+    margin-top: 14px;
+    margin-left: 22%;
+}
+
+ h3{
+    justify-content: center;
+    margin-left: 10%;
+
+ }
+
+ .plans {
+    width: 20.1rem;
+    height: 150rem;
+}
+
+
+h4 {
+    justify-content:center;
+    text-align: center;
+    padding: 45px;
+    font-size: 45px;
+    margin-left: -4%;
+    color: white;
+}
+
+h5 {
+    justify-content:center;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 5%;
+    color: white;
+}
+
+
+.contenedor{
+    display: block;
+    margin-left: -5rem;
+    justify-content: space-around;
+
+}
+
+.card-container1, .card-container2, .card-container3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   margin: 74em;
+   width: 250px;
+   height: 369px;
+   margin: 45px auto;
+  
+ margin-top: -14px;
+ padding: 4px;
+}
+
+.card-container1 > h1, .card-container2 > h1, .card-container3 > h1{
+
+margin-top: -4em;
+font-size: 25px;
+
+}
+
+
+
+.card-container1 > p, .card-container2 > p, .card-container3 > p{
+    margin-top: -25px;
+    font-size: 11px;
+    margin-left: 45px;
+}
+.card-container1 > li, .card-container2 > li, .card-container3 > li{
+font-size: 11px;
+margin-top: -45px;
+
+}
+
+
+
+  .card-container2>button,  .card-container3>button {
+    width: 140px;
+    height: 50px;
+    background:rgb(109, 76, 213);
+    border-radius: 10px;
+    color:  rgb(231, 230, 233);
+    margin-left: 5px;
+    margin-top: 5px  
+}
+.card-container1>button {
+    width: 140px;
+    height: 50px;
+    background:rgb(246, 51, 150);
+    border-radius: 10px;
+    color:  rgb(231, 230, 233);
+    margin-left: 35px;
+    margin-top: 5px 
+}
+
+ .final {
+    width: 21.5rem;
+    height: 100%;
+    margin-top: -2.2rem;
+    margin-left: -1rem;
+}   
+
+ .social li {
+    font-size: 14px;
+    display: flex;
+    flex-direction: row-re;
+    flex-wrap: wrap;
+    padding: 0px;
+    min-width: 12px;
+    align-items: center;
+    margin-top: 82%; 
+    text-align: center;
+    font-size: 28px;
+    margin-left: 20%;
+}
+
+
+}
+
+
+
+@media (max-width:920px) {
+   
+    .products{
+        width: 21.5rem;
+        height:45rem
+    
+    }
+    .buttons{ 
+        margin-top: 117px;
+    }
+    .phone{
+        margin-top: -21rem;
+        margin-left: 28%;
+    }
+
+    .funcionalidades {
+        margin-top: 44px;
+        width: 49rem;
+        height: 44em; 
+    }
+    
+    
+    .funcionalidades > img{ 
+        height: 19rem;
+        width: 15rem;
+        padding: -74rem;  
+        margin-left: 44%;
+       }
+    
+    .funcionalidades > h1 {
+    margin-top: -13em ;
+    font-size: 41px;
+    margin-left: 5em;
+    padding: -72px;
+    }
+    
+    
+    
+     
+    
+    .funcionalidades > h2 {
+        margin-top: 8rem;
+        margin-left: 44%;
+       
+    }
+    
+    
+    .funcionalidades > p {
+        margin-top: 3rem;
+        margin-left: 44%;
+       
+    }
+    
+    .title2 {
+        margin-top: 14px;
+        margin-left: 48%;
+    }
+    
+     h3{
+        justify-content: center;
+        margin-left: 44%;
+    
+     }
+     .plans {
+        width: 47.5rem;
+        height: 150rem;
+    }
+
+    .final {
+        width: 48.5rem;
+        height: 100%;
+
+
+}
+
+.social li {
+    font-size: 25px;
+}
+
+.card-container1, .card-container2, .card-container3{
+    height: 35.5rem;
+
+ }
+
+
+}
